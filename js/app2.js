@@ -87,12 +87,12 @@ const createHoverEffect = () => {
         <hr class="custom-hr">
         <div class="image-container"> <!-- Agregamos una clase al contenedor -->
             <div class="image-info">
-                <img src="/LifeExpectancy/assets/men.png" alt="Icono de hombre" width="60" height="60">
+                <img src="/assets/men.png" alt="Icono de hombre" width="60" height="60">
                 <div>${Men}</div>
                 <div><n>Men</n> </div>
             </div>
             <div class="image-info">
-                <img src="/LifeExpectancy/assets/women.png" alt="Icono de mujer" width="60" height="60">
+                <img src="/assets/women.png" alt="Icono de mujer" width="60" height="60">
                 <div>${Women}</div>
                 <div><n>Women</n> </div>
             </div>
