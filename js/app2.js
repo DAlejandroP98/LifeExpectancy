@@ -48,7 +48,7 @@ const drawGlobe = () => {
         .transition()
         .duration(500) // Duración de la transición en milisegundos
         .style("stroke", "#ffffff1e") // Cambia el color del borde del círculo a blanco para simular el brillo
-        .style("stroke-width", 3); // Ajusta el ancho del borde para que se vea más brillante
+        .style("stroke-width", 4); // Ajusta el ancho del borde para que se vea más brillante
 
     globe
     .selectAll('path')
@@ -87,12 +87,12 @@ const createHoverEffect = () => {
         <hr class="custom-hr">
         <div class="image-container"> <!-- Agregamos una clase al contenedor -->
             <div class="image-info">
-                <img src="./assets/men.png" alt="Icono de hombre" width="60" height="60">
+                <img src="/LifeExpectancy/assets/men.png" alt="Icono de hombre" width="60" height="60">
                 <div>${Men}</div>
                 <div><n>Men</n> </div>
             </div>
             <div class="image-info">
-                <img src="/assets/women.png" alt="Icono de mujer" width="60" height="60">
+                <img src="/LifeExpectancy/women.png" alt="Icono de mujer" width="60" height="60">
                 <div>${Women}</div>
                 <div><n>Women</n> </div>
             </div>
