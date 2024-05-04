@@ -92,7 +92,7 @@ const createHoverEffect = () => {
                 <div><n>Men</n> </div>
             </div>
             <div class="image-info">
-                <img src="/LifeExpectancy/women.png" alt="Icono de mujer" width="60" height="60">
+                <img src="/LifeExpectancy/assets/women.png" alt="Icono de mujer" width="60" height="60">
                 <div>${Women}</div>
                 <div><n>Women</n> </div>
             </div>
