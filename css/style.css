@@ -1,0 +1,40 @@
+body {
+    background-image: url('/Actividad1/assets/fondo4.jpg');
+    background-size: cover; /* Esto ajustará la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Esto evita que la imagen se repita */
+    /* Otros estilos opcionales */
+    /* background-position: center; */ /* Esto centrará la imagen en el fondo */
+    /* background-attachment: fixed; */ /* Esto fija la imagen de fondo mientras se desplaza la página */
+    font-family: Helvetica, sans-serif;
+    /* background: linear-gradient(to bottom, #000000,#000033, #000022, #000011, #000000); */
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.info{
+    position: fixed;
+    top: 0;
+    color: white;
+    padding: 30px;
+    font-size: large;
+    
+}
+
+.country{
+    transition: fill .5s;
+}
+
+.custom-hr {
+    border-top: 2px solid white; /* Cambia el color de la línea a azul */
+}
+
+.image-container {
+    margin-left: 205px; /* Ajusta el margen según tu preferencia */
+}
+
+.image-info {
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px; /* Ajusta el margen entre las imágenes */
+}
